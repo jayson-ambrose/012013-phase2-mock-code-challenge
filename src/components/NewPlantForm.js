@@ -1,10 +1,17 @@
 import React from "react";
 
 function NewPlantForm({formVals, handleFormVals, handleSubmit}) {
+
+  function handleClick(event, object) {
+    event.preventDefault()
+    handleSubmit(formVals)
+  }
+
+
   return (
     <div className="new-plant-form">
       <h2>New Plant</h2>
-      <form onSubmit={() => handleSubmit(formVals)}>
+      <form onSubmit={handleClick}>
         <input 
           type="text" 
           name="name" 

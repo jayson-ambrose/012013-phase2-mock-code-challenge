@@ -44,7 +44,7 @@ function PlantPage() {
       body: JSON.stringify(object)      
     })
     .then(resp => resp.json())
-    .then(data => console.log(data))
+    .then(data => setPlants([...plants, object]))
   }
 
   return (
