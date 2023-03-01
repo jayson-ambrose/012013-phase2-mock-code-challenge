@@ -41,6 +41,12 @@
       "name": "Fiddle Leaf Fig",
       "image": "./images/fiddle-leaf-fig.jpg",
       "price": 55
+    },
+    {
+      "name": "Big Ole Oak",
+      "image": "https://previews.123rf.com/images/lillitve/lillitve1810/lillitve181000059/119927041-big-old-oak-tree-in-autumn-forest.jpg",
+      "price": "105.50",
+      "id": 8
     }
   ]
 }
